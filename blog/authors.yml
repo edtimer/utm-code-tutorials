@@ -1,0 +1,17 @@
+jumail:
+  name: Dr Jumail
+  title: UTM Lecturer
+  url: https://github.com/
+  image_url: https://github.com/endiliey.png
+
+adam:
+  name: Abdulla Adam
+  title: Software Engineering Student
+  url: https://github.com/edtimer
+  image_url: https://github.com/yangshun.png
+
+# jumail:
+#   name: Dr. Jumail
+#   title: UTM Lecturer
+#   url: https://sebastienlorber.com
+#   image_url: https://github.com/jumail-utm
