@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcoding_resource_utm=self.webpackChunkcoding_resource_utm||[]).push([[6292],{4490:u=>{u.exports=JSON.parse('{"label":"docusaurus","permalink":"/utm-code-tutorials/blog/tags/docusaurus","allTagsPath":"/utm-code-tutorials/blog/tags","count":4}')}}]);
