@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'UTM development environment setup tutorial site',
-  tagline: 'By: Abdulla Adam',
+  tagline: 'By: Dr.Jumail & Abdulla Adam',
   url: 'https://github.com',
   baseUrl: '/utm-code-tutorials/',
   onBrokenLinks: 'throw',
