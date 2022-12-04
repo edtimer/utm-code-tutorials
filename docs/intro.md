@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# VS Code setup Tutorial for C++
+# VS Code setup Tutorial
 
 Let's download and setup **Visual Studio code in less than 15 minutes**.
 
