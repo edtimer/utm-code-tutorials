@@ -18,7 +18,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            UTM coding environment set up - click here to start
+            UTM coding environment set up - click here
           </Link>
         </div>
       </div>

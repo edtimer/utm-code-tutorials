@@ -6,42 +6,38 @@ sidebar_position: 1
 
 Let's download and setup **Visual Studio code in less than 15 minutes**.
 
-## Getting Started
 
-We start by **Downloading VS Code**.
-
-Or **Download Visual Studio code here**  **[VSCODE Download](https://code.visualstudio.com/Download)**.
 
 ### What you'll need
+1. Chocolatey
+- you can run the following script to authomatically download and install MinGW. To do so, open powershell on your pc/laptop by navigating to start menu and searching for powershell. After opening it paste the following script and press enter. ```Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))```
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+## Check installation was successful
+- After the process is done, copy and paste the following command into the the same terminal 
+```bash
+choco --version
+``` 
+If you see version information on the screen then you are good to go!.
+## Getting VS code and MingW
 
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
+Type or copy paste the following command into powershell terminal 
 
 ```bash
-npm init docusaurus@latest my-website classic
+choco install vscode mingw -y
 ```
+This process might take sometime depending on your internet connection and hardware.
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+-After finishing you have the basic setup to code using C++ on your laptop.
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+## Help! , I cant make it work
 
-## Start your site
+Its alright! .
+## Manually installing VS Code
 
-Run the development server:
+If the tutorial didnt help, we can do this in a manual manner.
+- We start by **Downloading VS Code**.
 
-```bash
-cd my-website
-npm run start
-```
+you can get it here-> **Download Visual Studio code here**  **[VSCODE Download](https://code.visualstudio.com/Download)**. Note that you will require to download MinGW and change PATH variables on your system.If you are not comfortable with this .Just show up early for Programming clinic venue and we will help you!
+## Whats next
 
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
-
+- In an upcoming tutorial we will discuss about extensions and how they help.
