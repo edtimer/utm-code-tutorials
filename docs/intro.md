@@ -12,10 +12,11 @@ Let's download and setup **Visual Studio code in less than 15 minutes**.
 1. Chocolatey
 - you can run the following script to authomatically download and install MinGW. To do so, open powershell on your pc/laptop by navigating to start menu and searching for powershell. After opening it paste the following script and press enter. 
 ```bash
-Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))```
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+```
 
 ## Check installation was successful
-- After the process is done, copy and paste the following command into the the same terminal 
+-After the process is done, copy and paste the following command into the the same terminal 
 ```bash
 choco --version
 ``` 
